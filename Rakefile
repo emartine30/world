@@ -4,3 +4,5 @@
 require File.expand_path('../config/application', __FILE__)
 
 World::Application.load_tasks
+
+# nothing
