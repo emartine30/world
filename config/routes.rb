@@ -1,5 +1,7 @@
 World::Application.routes.draw do
   
+  resources :pins
+
   get '/about' => "page#about"
   root "page#index"
   # The priority is based upon order of creation: first created -> highest priority.
