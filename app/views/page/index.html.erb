@@ -1,3 +1,7 @@
+<% if user_signed_in? %>
+<p>Why hello, <%= current_user.email %></p>
+<% end %>
+
 <div class="jumbotron">
   <h1>We Love Kittens</h1>
   <p>But don't know where to find them on the internet</b>.</p>
